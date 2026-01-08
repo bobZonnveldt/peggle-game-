@@ -8,6 +8,8 @@ public class Pegscore : MonoBehaviour
 
     private int hitsRemaining;
     private SpriteRenderer spriteRenderer;
+    [Header("VFX")]
+    public ParticleSystem hitParticles;
 
     void Start()
     {
@@ -29,14 +31,10 @@ public class Pegscore : MonoBehaviour
     void HandleHit()
     {
         hitsRemaining--;
-        Debug.Log($"HandleHit: hitsRemaining={hitsRemaining}, adding {pointsPerHit} points");
+        Debug.Log($"HandleHit: hitsRemaining={hitsRemaining}, adding {pointsPerHit} points, pegTag={gameObject.tag}");
         if (ScoreManager.Instance != null)
         {
-            ScoreManager.Instance.AddScore(pointsPerHit);
-        }
-        else
-        {
-            Debug.LogWarning("ScoreManager.Instance is null - did you add the ScoreManager to the scene and assign the UI Text?");
+            ScoreManager.Instance.AddScore(pointsPerHit, gameObject.tag);
         }
 
         if (spriteRenderer != null)
@@ -44,8 +42,8 @@ public class Pegscore : MonoBehaviour
             float factor = (float)hitsRemaining / totalHits;
             spriteRenderer.color = new Color(factor, factor, factor, 1f);
         }
-
        
+        
         if (hitsRemaining <= 0)
         {
             Destroy(gameObject);
