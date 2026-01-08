@@ -1,7 +1,5 @@
 # peggle-game-
 
-#alle scripts staan hier
-https://github.com/bobZonnveldt/peggle-game-/tree/main/Assets/scripsts
 
 
 #1.1 idee is om teleporters neertezetten die bewegen de onderste teleport de bal naar boven en links naar recht
@@ -9,20 +7,22 @@ https://github.com/bobZonnveldt/peggle-game-/tree/main/Assets/scripsts
 
 #2.1 forces en collosion werken
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3)
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Balshot.cs
 
 #2.2 mikken werkt en lijn doet het
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3)
-
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Aim.cs
 #3.1 score en triggers werken
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3) 
-
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremanager.cs
 #3.2 Mult/combo werkt
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3)
-
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremanager.cs
 #4.1 ui werkt
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3)
-
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremanager.cs
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/UI%20scoreboard.cs
 #4.2 scores werkt 
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3)
-
-
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremanager.cs
+https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/UI%20scoreboard.cs
