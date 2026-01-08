@@ -20,9 +20,11 @@ https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremana
 https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremanager.cs
 #4.1 ui werkt
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3)
+#er zitten hier 2 scripts bij
 https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremanager.cs
 https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/UI%20scoreboard.cs
 #4.2 scores werkt 
 ![Recording 2026-01-08 143524](https://github.com/user-attachments/assets/6bdae01a-f0c2-4171-ba7c-04496ac500e3)
+#er zitten hier 2 scripts bij
 https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/Scoremanager.cs
 https://github.com/bobZonnveldt/peggle-game-/blob/main/Assets/scripsts/UI%20scoreboard.cs
